@@ -1,0 +1,11 @@
+services:
+    vtex.config:
+        class: Vtex\ApiBundle\Service\ServiceConfig
+        arguments: [ '%vtex_api.base_uri%', '%vtex_api.headers.accept%', '%vtex_api.headers.content_type%']
+        calls:
+            - [setAuth, [ '%vtex_api.auth.app_key%', '%vtex_api.auth.app_secret%' ]]
+
+    oms.orders:
+        class: Vtex\ApiBundle\Service\Oms\OrderService
+        arguments: [ '@vtex.config' ]
+

@@ -1,0 +1,7 @@
+parameters:
+    kernel.secret: sJvc3X0LYiTU
+    database_driver:    pdo_mysql
+    database_host:      localhost
+    database_name:      painel
+    database_user:      USUARIO_PROD
+    database_password:  SENHA_PROD

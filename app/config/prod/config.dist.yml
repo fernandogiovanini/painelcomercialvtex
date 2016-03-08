@@ -1,0 +1,9 @@
+imports:
+    - { resource: '../common/config.yml' }
+    - { resource: 'parameters.yml' }
+
+vtex_api:
+   base_uri:             'https://SUA_LOJA.vtexcommercestable.com.br'
+   auth:
+        app_key:              'USUARIO_PROD'
+        app_secret:           'SENHA_PROD'

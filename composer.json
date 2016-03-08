@@ -1,0 +1,29 @@
+{
+    "name": "painel-comercial/painel-comercial",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+      "psr-4": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/console": "^2.7",
+        "doctrine/orm": "^2.4.8",
+        "doctrine/doctrine-bundle": "~1.4",
+        "guzzlehttp/guzzle": "~6.0",
+        "doctrine/doctrine-migrations-bundle": "^1.0",
+        "symfony/finder": "^2.7",
+        "doctrine/annotations": "^1.2",
+        "sensio/framework-extra-bundle": "^3.0",
+        "indigophp/doctrine-annotation-autoload": "^0.1.0",
+        "symfony/dependency-injection": "^2.7",
+        "monolog/monolog": "^1.17",
+        "symfony/monolog-bundle": "^2.8"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-app-dir": "app"
+    }
+}
